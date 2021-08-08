@@ -11290,6 +11290,10 @@ textarea.form-control-lg {
   --display-sun: inline;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   padding-top: 3.375rem;
   color: var(--color-text);
