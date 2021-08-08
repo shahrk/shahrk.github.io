@@ -4,6 +4,25 @@
 
 // Styling for the rounded social media links
 
+button.icon {
+    background-color: $primary;
+    border: none;
+    color: var(--color-text);
+    padding: 12px 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#sun {
+    display: var(--display-sun);
+    color: orange;
+}
+
+#moon {
+    display: var(--display-moon);
+    color: black;
+}
+
 .social-icons {
     .social-icon {
         display: inline-flex;
@@ -11,8 +30,8 @@
         justify-content: center;
         height: 3.5rem;
         width: 3.5rem;
-        background-color: $gray-700;
-        color: $white;
+        background-color: var(--color-text);
+        color: var(--color-page-background);
         border-radius: 100%;
         font-size: 1.5rem;
         margin-right: 1.5rem;
@@ -23,6 +42,7 @@
 
         &:hover {
             background-color: $primary;
+            color: var(--color-text);
         }
     }
 }

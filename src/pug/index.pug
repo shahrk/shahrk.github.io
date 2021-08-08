@@ -46,6 +46,10 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
+                    li.nav-item
+                        button.icon(onclick="document.body.classList.contains('dark') ? document.body.classList.remove('dark') : document.body.className += ' dark'")
+                            i#sun.fas.fa-sun
+                            i#moon.fas.fa-moon
 
         // Page Content
         .container-fluid.p-0
@@ -57,10 +61,10 @@ html(lang='en')
                         | Raj 
                         span.text-primary Shah
                     .subheading.mb-5
-                        | 512 Tartan Circle · Raleigh, NC 27606 · (603) 921-9526 · 
+                        | Raleigh, NC · (603) 921-9526 · 
                         a(href='mailto:name@email.com') rajshahworks@gmail.com
                     p.lead.mb-5
-                        | I am a gradudate student in Computer Science at North Carolina State University (Graduating Summer 2022). Previously I worked as a Software Engineer at GE and am experienced in full stack development and AWS technologies. When not working, I am mostly reading books or playing snooker. I love to read about system design and and am up for a discussion on finance, economics, or tech anytime.
+                        | Gradudate student in Computer Science at <a href="https://www.csc.ncsu.edu/" target="_blank">North Carolina State University</a> (Graduating Summer 2022). <br> Previously Software Engineer at <a href="https://www.ge.com" target="_blank">GE</a>.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/shahrk97/', target='_blank')
                             i.fab.fa-linkedin-in

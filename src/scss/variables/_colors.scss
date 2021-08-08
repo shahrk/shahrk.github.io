@@ -5,12 +5,23 @@
 // Pre-state grayscale colors used in other variables
 
 $gray-800: #343a40;
+$whitish: #DFDFDF;
+$white: white;
+$dark: #003042;
 
 // Override Bootstrap color system
 
 $orange: #bd5d38;
 $blue: #1B8697;
+$yellow: #FFED00;
+$green: #20a065;
 
 // Override Bootstrap default state colors
 
 $primary: $blue;
+$light-bg-color: $white;
+$light-text-color: $gray-800;
+$dark-bg-color: $dark;
+$dark-text-color: $whitish;
+$no-display: none;
+$show-display: inline;

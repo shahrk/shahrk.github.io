@@ -2,9 +2,24 @@
 // Global
 // 
 
+:root {
+    --color-page-background: #{$light-bg-color};
+    --color-text: #{$light-text-color};
+    --display-sun: #{$no-display};
+    --display-moon: #{$show-display};
+}
+
+.dark {
+    --color-page-background: #{$dark-bg-color};
+    --color-text: #{$dark-text-color};
+    --display-moon: #{$no-display};
+    --display-sun: #{$show-display};
+}
+
 body {
     padding-top: $navbar-base-height;
-    color: $gray-600;
+    color: var(--color-text);
+    background-color: var(--color-page-background);
 }
 
 @include media-breakpoint-up(lg) {
