@@ -16,6 +16,10 @@
     --display-sun: #{$show-display};
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     padding-top: $navbar-base-height;
     color: var(--color-text);

@@ -45,7 +45,9 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#contact') Contact
                     li.nav-item
                         button.icon(onclick="document.body.classList.contains('dark') ? document.body.classList.remove('dark') : document.body.className += ' dark'")
                             i#sun.fas.fa-sun
@@ -62,7 +64,7 @@ html(lang='en')
                         span.text-primary Shah
                     .subheading.mb-5
                         | Raleigh, NC · (603) 921-9526 · 
-                        a(href='mailto:name@email.com') rajshahworks@gmail.com
+                        a(href='mailto:rshah28@ncsu.edu', target='_blank') rshah28@ncsu.edu
                     p.lead.mb-5
                         | Gradudate student in Computer Science at <a href="https://www.csc.ncsu.edu/" target="_blank">North Carolina State University</a> (Graduating Summer 2022). <br> Previously Software Engineer at <a href="https://www.ge.com" target="_blank">GE</a>.
                     .social-icons
@@ -84,39 +86,74 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            h3.mb-0 Research Programmer
+                            .subheading.mb-3 North Carolina State University
+                            ul
+                                li
+                                    | SimStudent is an ML-agent used as a synthetic tutee for students to learn by teaching.
+                                li
+                                    | Worked on making SimStudent available on the web by transforming the existing java based desktop application to a web based application using Spring Boot, Angular & MySQL.
+                                li 
+                                    | Made it support concurrent users and implemented service for health checking servers and routing users to appropriate servers (as routing needed to be sticky).
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary January 2021 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                            h3.mb-0 Software Engineer
+                            .subheading.mb-3 General Electric (GE)
+                            ul
+                                li 
+                                    | Developed an application that models cost of service agreements between GE and wind farm owners. Technologies used: Spring Boot, Angular, Node and other AWS services
+                                li 
+                                    | Setup OAuth2 authentication and authorization for the cost modelling application
+                                li 
+                                    | Created a reverse proxy service using Node that acted as an entrypoint for incoming requests
+                                li 
+                                    | Developed Raven, a service for sending targeted email, text message and push notifications based on user location. Technologies used: Spring Boot, RabbitMQ, UrbanAirShip
+                                li
+                                    | Dockerized local development setup and automated deployment using Jenkins
+                                li 
+                                    | Created generic CRUD API to enable dynamic crud operations without any boiler plate (used for prototyping)
+                                li 
+                                    | Led migration from Cloud Foundry to AWS, as well as efforts for refactoring and performance optimization
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
+                            span.text-primary June 2018 - October 2020
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                            h3.mb-0 Software Engineer Intern 
+                            .subheading.mb-3 General Electric (GE)
+                            ul
+                                li
+                                    | Developed a notification system for handling push notifications. Technologies used: JavaScript, NodeJs, Express, Spring Boot
+                                li 
+                                    | Handled the end to end development of a product catalog web app. Technologies used: Angular 6, NodeJS, Express
                         .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
+                            span.text-primary January 2018 - Mat 2018
 
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Teaching Assistant
+                            .subheading.mb-3 DAIICT
+                            ul 
+                                li 
+                                    | Teaching assistant for Study Hours of Data Structure and Algorithms
+                                li 
+                                    | Worked with students who lagged behind in studies towards improving their grades by helping them with assignments, revisiting abstruse topics and solving doubts
+                        .flex-shrink-0
+                            span.text-primary June 2017 - December 2017
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                            h3.mb-0 Research Assistant
+                            .subheading.mb-3 DAIICT
+                            ul 
+                                li 
+                                    | Created Python script for collecting, cleaning and processing more than 10 Million tweets
+                                li 
+                                    | Determined factors with positive correlation such as influence factor (number of followers), trending factor (google trends score), sentiment (using naive bayes), time of tweet
                         .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                            span.text-primary April 2017 - May 2017
 
             hr.m-0
 
@@ -127,20 +164,21 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 North Carolina State University
+                            .subheading.mb-3 Masters of Computer Science
+                            div Courses Taken - Computer & Network Security, DBMS, Automated Learning and Data Analysis, Software Engineering, Design & Analysis of Algorithms
+                            p GPA: 4.00
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary January 2021 - Present (Expected Gradudation: May 2022)
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 Dhirubhai Ambani Institute of Information & Communication Technology
+                            .subheading.mb-3 Bachelors of Technology in Computer Science
+                            div Courses Taken - Operating Systems, Computer Networks, Database Systems, System Software, Object Oriented Programming
+                            p GPA: 8.19
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary August 2014 - May 2018
 
             hr.m-0
 
@@ -148,50 +186,62 @@ html(lang='en')
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-3 Programming Languages & Frameworks
                     ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-html5
+                            i.fab.fa-java
                         li.list-inline-item
-                            i.fab.fa-css3-alt
+                            <img src="assets/img/spring.png" width="45" height="45"/>
                         li.list-inline-item
                             i.fab.fa-js-square
                         li.list-inline-item
                             i.fab.fa-angular
                         li.list-inline-item
-                            i.fab.fa-react
+                            i.fas.fa-database
                         li.list-inline-item
                             i.fab.fa-node-js
                         li.list-inline-item
-                            i.fab.fa-sass
+                            i.fab.fa-python
                         li.list-inline-item
-                            i.fab.fa-less
+                            <img src="assets/img/go.png" width="50" height="45"/>
                         li.list-inline-item
-                            i.fab.fa-wordpress
+                            i.fab.fa-react
+                    .subheading.mb-3 Tools (Software & Libraries)
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-docker
+                        li.list-inline-item
+                            <img src="assets/img/redis.png" width="45" height="45"/>
+                        li.list-inline-item
+                            i.fab.fa-jenkins
+                        li.list-inline-item
+                            <img src="assets/img/postman.png" width="50" height="50"/>
+                        li.list-inline-item
+                            i.fab.fa-git-alt
+                        li.list-inline-item
+                            i.fab.fa-bootstrap
                         li.list-inline-item
                             i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
+                    .subheading.mb-3 Other
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Mobile-First, Responsive Design
+                            | MySQL/PostgreSQL
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Browser Testing & Debugging
+                            | MongoDB
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Functional Teams
+                            | RabbitMQ
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Agile Development & Scrum
+                            | JMeter
 
             hr.m-0
 
@@ -200,55 +250,71 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Interests
                     p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                        | Apart from being a software engineer, I enjoy playing tennis, swimming, hiking, rock climbing, and reading books. I also like to play Dota ocassionally.
                     p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                        | I spend a large amount of my free time exploring the latest technology advancements in the software world and am really interested in system design. I am also interested in finance and economics. I have been recently exploring the crypto DeFi space as it is at the intersection of my interests of finance, economics and software. 
 
             hr.m-0
 
-            // Awards
-            section#awards.resume-section
+            // Projects
+            section#projects.resume-section
                 .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 <a href="https://github.com/shahrk/basic-rate-limiter" target="_blank">API Rate Limiter</a>
+                            p 
+                                |  An API rate limiter developed in NodeJS using Express and Redis
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 <a href="https://raj-chatroom.herokuapp.com/" target="_blank">Chat Room Application</a>
+                            p 
+                                | A real time chat room application using Spring Boot, Web Sockets and RabbitMQ
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 <a href="https://github.com/shahrk/wolfWr-backend" target="_blank">Big Box Retailer Database Service</a>
+                            p 
+                                | Designed and implemented a database service for a Costco like store using MariaDB & Spring Boot. Performed partitioning, indexing, and query optimizations to improve performance
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 <a href="https://github.com/shahrk/graft" target="_blank">GRaft</a>
+                            p 
+                                | Developed a raft based distributed Key Value store in Go, did a manual implementation of raft instead of using an existing library
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 <a href="https://github.com/shahrk/casper-frontend" target="_blank">Casper Game</a>
+                            p 
+                                | Web based flappy bird like game with social media login and leaderboards developed using JavaScript, SpringBoot & Redis
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-3 Non Volatile Virtual File System
+                            p 
+                                | A Java FAT file system made using File Allocation Table and File Entry Table
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            .subheading.mb-3 Smart Tic-Tac-Toe
+                            p 
+                                | A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning
+
+            // Contact
+            section#contact.resume-section
+                .resume-section-content
+                    h2.mb-5 Contact
+                    p 
+                        | If you liked my work or have queries about any of my projects, you can reach out to me via email or DM me on Twitter. If you'd like to contribute to any of my projects you can simply open an issue on GitHub.
+                    i.fab.fa-github
+                    a(href='https://github.com/shahrk', target='_blank')
+                        | shahrk
+                    br
+                    i.fab.fa-twitter
+                    a(href='https://twitter.com/rajshah_06', target='_blank')
+                        | rajshah_06
+                    br
+                    i.far.fa-envelope
+                    a(href='mailto:rshah28@ncsu.edu', target='_blank')
+                        | rshah28@ncsu.edu
+                    
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
